@@ -12,7 +12,7 @@ It will :
 
 ## Install Instructions
 
-* checkout this repo to `~/src/macos-devenv-ansible-provisioner`.
+* checkout this repository to `~/src/macos-devenv-ansible-provisioner`.
 * copy `roles/mac-dev-playbook/files/ansible/ansible.cfg` to `~/.ansible.cfg`
 * Create file `inventory` @ `~/.ansible/inventory` e.g.
 
@@ -30,7 +30,7 @@ yourMacHostName gpg_key=${your-local-gpg-key}
 
 ## Can I use it ?
 
-Use at your own risk, this playbook doesn't aim to be used by anyone else. Please be sure to backup your current ~/.zshrc.rc file before executing this play-book ( as it will be overwritten with one from this repo) 
+Use at your own risk, this playbook doesn't aim to be used by anyone else. Please be sure to backup your current ~/.zshrc.rc file before executing this play-book, as it will be overwritten with one from this repository.
 
 ### asdf : install all plugins at once
 
