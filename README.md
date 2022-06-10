@@ -23,6 +23,10 @@ yourMacHostName gpg_key=${your-local-gpg-key}
 * then go to `~/src/macos-devenv-ansible-provisioner`.
 * run `ansible-playbook main.yml --diff --verbose --inventory ~/.inventory --limit $(hostname)`.
 
+## Tips
+
+* `macconfig` will open project with code
+
 ## Manual configurations
 
 * Configure iTerm2 <https://apple.stackexchange.com/questions/136928/using-alt-cmd-right-left-arrow-in-iterm>

@@ -11,8 +11,15 @@ function runans() {
   ansible-playbook main.yml --diff --verbose --limit $(hostname)
 }
 
+# function macans() {
+#   cd ~/src/macos-provision &&
+#   gitandans $1
+# }
+
 alias cd..="cd .."
 alias ..="cd .."
+
+alias macconfig="code ~/src/macos-devenv-ansible-provisioner"
 
 function cheat(){
   echo "gitcheat"
