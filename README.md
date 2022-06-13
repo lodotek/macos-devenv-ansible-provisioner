@@ -21,7 +21,7 @@ It will :
 yourMacHostName gpg_key=${your-local-gpg-key}
 ```
 * then go to `~/src/macos-devenv-ansible-provisioner`.
-* run `ansible-playbook main.yml --diff --verbose --inventory ~/.inventory --limit $(hostname)`.
+* run `ansible-playbook main.yml --diff --verbose --inventory ~/.ansible/inventory --limit $(hostname)`.
 
 ## Tips
 
