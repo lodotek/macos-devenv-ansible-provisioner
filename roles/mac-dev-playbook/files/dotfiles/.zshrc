@@ -1,5 +1,6 @@
 # Activate antigen package manager for zsh plugins
-source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
+source /opt/homebrew/Cellar/antigen/2.2.3/share/antigen/antigen.zsh # for arm64 users
+# source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh # for Intel users
 
 antigen init ~/.antigenrc
 
