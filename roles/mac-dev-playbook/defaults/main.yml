@@ -28,6 +28,7 @@ homebrew_installed_packages:
   - dive                    # Tools to explore docker layers with an UI
   - dos2unix                # Convert files from DOS to Unix format
   - fluxcd/tap/flux         # Flux is a Kubernetes Helm chart manager
+  - fzf                     # A command-line fuzzy finder
   - git                     # Git is a version control system
   - github/gh/gh            # GitHub CLI
   - go  
@@ -82,5 +83,6 @@ asdf_plugins:
 
 pip_packages: 
   # - aiven-client # https://aiven.io/
+  - ansible
   - cookiecutter
   - howdoi
