@@ -1,6 +1,10 @@
 # Activate antigen package manager for zsh plugins
-source /opt/homebrew/Cellar/antigen/2.2.3/share/antigen/antigen.zsh # for arm64 users
-# source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh # for Intel users
+if [[ $OSTYPE == darwin* && $CPUTYPE == arm64 ]]; then
+  source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
+else
+  source /opt/homebrew/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
+fi
+
 
 antigen init ~/.antigenrc
 
