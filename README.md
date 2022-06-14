@@ -39,5 +39,6 @@ Use at your own risk, this playbook doesn't aim to be used by anyone else. Pleas
 ### asdf : install all plugins at once
 
 ```shell
- cut -d ' ' -f1 .tool-versions | xargs -I _ asdf plugin-add _
- ```
+cut -d ' ' -f1 .tool-versions | xargs -I _ asdf plugin-add _
+asdf install
+```

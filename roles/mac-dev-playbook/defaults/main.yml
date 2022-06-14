@@ -40,9 +40,11 @@ homebrew_installed_packages:
   # There is a bug, install it manually 
   #- homebrew/cask-fonts/font-hack-nerd-font
   - highlight               # Syntax highlighting for your terminal
-  - npm
-  - node
+  - pyenv                   # Python Version Management tool
+  - node                    # Node.js
+  - npm                     # Node Package Manager
   - nvm                     # Node Version Manager
+  - oci-cli                 # Oracle Cloud Infrastructure CLI
   - openssl                 # OpenSSL is a toolkit for implementing SSL/TLS
   - pigz                    # gzip with parallel support
   - jq                      # jq is a lightweight and flexible command-line JSON processor
@@ -55,9 +57,10 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   # - firefox                 # Firefox is a web browser
   - google-cloud-sdk        # Google Cloud SDK  is a command-line interface for Google Cloud Platform
-  - iterm2                  # iTerm2 is a terminal replacement
   - intellij-idea           # IntelliJ IDEA is a Java IDE
+  - iterm2                  # iTerm2 is a terminal replacement
   - keystore-explorer       # Keystore Explorer is a tool for managing Java keystores
+  - lens                    # https://k8slens.dev/
   - visual-studio-code      # Visual Studio Code is a code editor
   - vlc                     # VLC is a free and open source cross-platform multimedia player and framework
 
@@ -68,13 +71,14 @@ npm_installed_packages:
 
 # FIXME Use directly .tool-versions
 asdf_plugins: 
-  - { name: terraform }
-  - { name: kubectl }
-  - { name: terraform-docs }
   - { name: conftest }
-  - { name: terraform-validator }
   - { name: fluxctl }
   - { name: hub }
+  - { name: kubectl }
+  - { name: kubectx }
+  - { name: terraform }
+  - { name: terraform-docs }
+  - { name: terraform-validator }
 
 pip_packages: 
   # - aiven-client # https://aiven.io/
