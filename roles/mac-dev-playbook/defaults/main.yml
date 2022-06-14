@@ -22,7 +22,7 @@ homebrew_installed_packages:
   - bash-completion
   - bat                     # cat with wings
   - bats                    # Bats is a Batch Test Suite
-  - direnv                  # augments existing shells with a new feature that can load and unload environment variables depending on the current directory.
+  - direnv                  # augments existing shells w/ new feat that can load/unload env vars depending on the CWD.
   - dive                    # Tools to explore docker layers with an UI
   - dos2unix                # Convert files from DOS to Unix format
   - fluxcd/tap/flux         # Flux is a Kubernetes Helm chart manager

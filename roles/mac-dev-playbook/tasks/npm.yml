@@ -1,3 +1,4 @@
+---
 - name: Install node.js packages.
   npm:
     name: "{{ item }}"
