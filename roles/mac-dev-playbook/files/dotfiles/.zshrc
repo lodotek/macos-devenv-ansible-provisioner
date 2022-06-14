@@ -1,8 +1,8 @@
 # Activate antigen package manager for zsh plugins
 if [[ $OSTYPE == darwin* && $CPUTYPE == arm64 ]]; then
-  source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
-else
   source /opt/homebrew/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
+else
+  source /usr/local/Cellar/antigen/2.2.3/share/antigen/antigen.zsh
 fi
 
 
