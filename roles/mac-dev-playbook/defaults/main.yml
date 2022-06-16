@@ -38,6 +38,7 @@ homebrew_installed_packages:
   - highlight               # Syntax highlighting for your terminal
   - jq                      # jq is a lightweight and flexible command-line JSON processor
   - k9s                     # k9s is a Kubernetes CLI
+  - kind                    # Kubernetes In Docker
   - node                    # Node.js
   - npm                     # Node Package Manager
   - nvm                     # Node Version Manager
@@ -46,6 +47,7 @@ homebrew_installed_packages:
   - pigz                    # gzip with parallel support
   - pyenv                   # Python Version Management tool
   - python-yq               # python-yq
+  - stern                   # Multi pod and container log tailing for ⎈Kubernetes
   - tree                    # tree is a directory listing utility
   - vault                   # Vault is a tool for managing secrets
   - wget                    # wget is a command line downloader
