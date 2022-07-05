@@ -5,12 +5,12 @@ fluxctl 1.22.2
 helm 3.6.0
 helm-secrets latest
 k9s latest
-kubectl latest
+kubectl 1.24.1
 kubectx latest
 poetry 1.2.0b2
 python 3.9.6
 shfmt 3.0.2
-sops latest
+sops 3.7.3
 terraform 1.2.2
 terraform-docs 0.10.1
 terraform-validator 3.1.3
