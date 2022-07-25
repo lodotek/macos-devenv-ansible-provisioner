@@ -16,6 +16,7 @@ homebrew_absent_packages:
 homebrew_installed_packages:
   - adr-tools
   - antigen                 # package manager for zsh
+  - argocd-autopilot        # ArgoCD AutoPilot https://argocd-autopilot.readthedocs.io/en/stable/Installation-Guide/
   - asdf                    # asdf is package manager 
   - autojump
   - bash
