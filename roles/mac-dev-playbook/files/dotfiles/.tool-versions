@@ -7,6 +7,7 @@ helm-secrets latest
 k9s latest
 kubectl 1.24.1
 kubectx latest
+kustomize 4.5.5
 poetry 1.2.0b2
 python 3.9.6
 shfmt 3.0.2
