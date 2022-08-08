@@ -1,12 +1,13 @@
-awscli latest
+awscli 2.7.21
 conftest v0.23.0
 flux2 0.14.1
 fluxctl 1.22.2
 helm 3.6.0
+helmfile 0.145.2
 helm-secrets latest
 k9s latest
 kubectl 1.24.1
-kubectx latest
+kubectx 0.9.4
 kustomize 4.5.5
 poetry 1.2.0b2
 python 3.9.6
