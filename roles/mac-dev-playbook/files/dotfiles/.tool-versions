@@ -14,5 +14,5 @@ python 3.9.6
 shfmt 3.0.2
 sops 3.7.3
 terraform 1.2.2
-terraform-docs 0.10.1
+terraform-docs 0.16.0
 terraform-validator 3.1.3
