@@ -1,6 +1,6 @@
 awscli 2.7.21
 conftest v0.23.0
-flux2 0.14.1
+flux2 0.40.1
 fluxctl 1.22.2
 helm 3.6.0
 helmfile 0.145.2
